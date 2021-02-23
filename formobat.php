@@ -42,7 +42,7 @@ $query = mysqli_query($koneksi , "select '' as idObat, '' as namaObat, '' jenisO
 				</tr>
 
 
-				<th align="left">Tanggal Kadarluarsa</th>
+				<th align="left">Tanggal Expired</th>
 
 				<td><input type="date" name="tanggalExpired" size="50" maxlength="50" value="<?php echo $data['tanggalExpired']?>"></td>
 			</tr>
